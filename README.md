@@ -1,2 +1,2 @@
 # Linux_Desktop_Build
-Scripts for new Linux installations
+Scripts for new Linux installations.
