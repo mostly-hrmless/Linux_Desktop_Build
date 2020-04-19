@@ -12,3 +12,8 @@ sudo apt install -y vim curl powerline gstreamer1.0-libav libthumbnailer0 ffmpeg
 
 #Install ruby gems
 sudo gem install lolcat
+
+#Powerline bashrc config
+echo "if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then" >> ~/.bashrc
+echo "source /usr/share/powerline/bindings/bash/powerline.sh" >> ~/.bashrc
+echo "fi" >> ~/.bashrc
